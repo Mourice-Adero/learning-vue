@@ -3,6 +3,7 @@ import ConditionalRendering from "./components/ConditionalRendering.vue";
 import EventHandling from "./components/EventHandling.vue";
 import FormInputBinding from "./components/FormInputBinding.vue";
 import ReactivityFundamentals from "./components/ReactivityFundamentals.vue";
+import Watchers from "./components/Watchers.vue";
 </script>
 <template>
   <h1>Learning Vue</h1>
@@ -21,5 +22,9 @@ import ReactivityFundamentals from "./components/ReactivityFundamentals.vue";
     <br />
     <h3>Conditional Rendering</h3>
     <ConditionalRendering />
+    <br />
+    <br />
+    <h3>Watchers</h3>
+    <Watchers />
   </div>
 </template>
