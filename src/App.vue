@@ -1,6 +1,20 @@
 <script setup>
-
+import ConditionalRendering from "./components/ConditionalRendering.vue";
+import EventHandling from "./components/EventHandling.vue";
+import FormInputBinding from "./components/FormInputBinding.vue";
 </script>
 <template>
-  <h1>Hello world</h1>
+  <h1>Learning Vue</h1>
+  <div>
+    <h3>Form Input Binding</h3>
+    <FormInputBinding />
+    <br />
+    <br />
+    <h3>Event Handling</h3>
+    <EventHandling />
+    <br />
+    <br />
+    <h3>Conditional Rendering</h3>
+    <ConditionalRendering />
+  </div>
 </template>
