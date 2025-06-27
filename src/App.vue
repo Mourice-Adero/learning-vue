@@ -1,4 +1,5 @@
 <script setup>
+import SamplePerson from "./components/components-in-depth/SamplePerson.vue";
 import ConditionalRendering from "./components/ConditionalRendering.vue";
 import EventHandling from "./components/EventHandling.vue";
 import FormInputBinding from "./components/FormInputBinding.vue";
@@ -26,5 +27,9 @@ import Watchers from "./components/Watchers.vue";
     <br />
     <h3>Watchers</h3>
     <Watchers />
+    <br />
+    <br />
+    <h3>Components In Depth</h3>
+    <SamplePerson />
   </div>
 </template>
